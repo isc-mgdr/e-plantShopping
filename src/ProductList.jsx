@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "./ProductList.css";
@@ -305,7 +306,7 @@ function ProductList() {
                               stroke='#faf9f9'
                               stroke-linecap='round'
                               stroke-linejoin='round'
-                              stroke-idth='2'
+                              stroke-width='2'
                               id='mainIconPathAttribute'></path>
                         </svg>
                      </h1>
